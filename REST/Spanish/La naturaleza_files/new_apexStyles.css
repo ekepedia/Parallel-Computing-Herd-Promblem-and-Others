@@ -1,0 +1,1774 @@
+/************************* Generic *************************************************/
+
+.contentDiv .emphasis
+{
+    font-style:italic;
+}
+
+.align-center
+{
+    text-align:center;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-left
+{
+    text-align:left;
+}
+
+.no-border
+{
+    border:0;
+}
+
+.clear-all
+{
+    clear:both;
+}
+
+.preview_color
+{
+    color:#FF3399;
+}
+
+.contentDiv.classic {
+    display: none;
+}
+.contentDiv.macaw {
+    display: none;
+}
+
+.contentDiv.active {
+    display: block;
+}
+
+/************************* #22 Callout box *****************************************/
+
+.contentDiv .calloutbox {
+    clear: both;
+}
+
+/************************* #56 Key Term Default ************************************/
+
+.contentDiv span.keyterm object,
+.contentDiv span.keyterm embed,
+#contentDiv span.keyterm object,
+#contentDiv span.keyterm embed
+{
+    height:10px;
+    width:10px;
+}
+
+span.keyterm span.tooltip span.title
+{
+    font-size:x-large;
+    font-family:Times;
+    color:#333333;
+}
+
+/************************* #23 Answer Box Text Field ***********************************/
+/************************* #24 Answer Box Radio Button *********************************/
+/************************* #25 Answer Box Checkbox *************************************/
+
+.contentDiv .answer-box-text-field object,
+.contentDiv .answer-box-text-field embed,
+.contentDiv .answer-box-radio-button object,
+.contentDiv .answer-box-radio-button embed,
+.contentDiv .answer-box-checkbox object,
+.contentDiv .answer-box-checkbox embed
+{
+    height:40;
+    width:425;
+}
+
+/************************* #157 Flash Video Default ************************************/
+
+.contentDiv .FlashVideoDefault object,
+.contentDiv .FlashVideoDefault embed
+{
+    height:323px;
+    width:400px;
+}
+
+
+/************************* #158 Flash Video High Def ************************************/
+
+.contentDiv .FlashVideoHighDef object,
+.contentDiv .FlashVideoHighDef embed
+{
+    height:275px;
+    width:448px;
+}
+
+/************************* #127 Flash Video Legacy Player ************************************/
+
+.contentDiv .FlashVideoLegacy object,
+.contentDiv .FlashVideoLegacy embed
+{
+    height:300px;
+    width:280px;
+}
+
+/************************* #153 Periodic Table *************************************/
+
+.contentDiv .periodic-table img
+{
+    height:37px;
+    width:75px;
+}
+.contentDiv .periodic-table>.caption
+{
+    font-size:9px;
+}
+
+/************************* #202 Key Term Basic ************************************/
+
+.contentDiv span.keyterm-basic
+{
+    font-weight:normal;
+}
+
+.contentDiv span.keyterm-basic span.example span
+{
+    font-weight:bold;
+}
+
+/************************* #122 Language Assist Default ************************************/
+
+.contentDiv .language-assist-default object,
+.contentDiv .language-assist-default embed
+{
+    height:13px;
+    width:46px;
+}
+
+/************************* #123 Language Assist Spanish ************************************/
+
+.contentDiv .language-assist-spanish object,
+.contentDiv .language-assist-spanish embed
+{
+    height:13px;
+    width:43px;
+}
+
+/************************* #151 Vocabulary Button  ************************************/
+
+.contentDiv .vocabulary-button object,
+.contentDiv .vocabulary-button embed
+{
+    height:10px;
+    width:10px;
+}
+
+/************************* #161 Audio Track No Caption  ************************************/
+
+.contentDiv .audio-track-no-caption object,
+.contentDiv .audio-track-no-caption embed
+{
+    height:26px;
+    width:215px;
+}
+
+.contentDiv span.audio-track-no-caption .icon
+{
+    z-index:0;
+}
+
+/************************* #162 Pronunciation  ************************************/
+
+.contentDiv .pronunciation object,
+.contentDiv .pronunciation embed
+{
+    height:10px;
+    width:10px;
+}
+
+/************************* #52 Chalkboard  ************************************/
+
+.contentDiv .chalkboard-iobj object,
+.contentDiv .chalkboard-iobj embed
+{
+    height:400px;
+    width:475px;
+}
+
+/************************* #106 Text Answer Box  ************************************/
+
+.contentDiv .text-answer-box object,
+.contentDiv .text-answer-box embed
+{
+    height:40px;
+    width:425px;
+}
+
+/************************* #107 Check Answer Box  ************************************/
+
+.contentDiv .check-answer-box object,
+.contentDiv .check-answer-box embed
+{
+    height:40px;
+    width:425px;
+}
+
+/********************************* #108 radio-answer-box ********************************/
+
+.contentDiv .radio-answer-box object,
+.contentDiv .radio-answer-box embed
+{
+	height:40px;
+	width:425px;
+}
+
+/********************************* #14 flash-animation ********************************/
+.contentDiv .flash-animation
+{
+    z-index:-10;
+}
+.contentDiv .flash-animation object,
+.contentDiv .flash-animation embed
+{
+	height:200px;
+	width:200px;
+}
+
+/********************************* #16 wordassist ********************************/
+
+.contentDiv .scriptoid-default object,
+.contentDiv .scriptoid-default embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #17 matching ********************************/
+
+.contentDiv .matching object,
+.contentDiv .matching embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #18 put-in-order ********************************/
+
+.contentDiv .put-in-order object,
+.contentDiv .put-in-order embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #19 picture-match ********************************/
+
+.contentDiv .picture-match object,
+.contentDiv .picture-match embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #20 multi-choice ********************************/
+
+.contentDiv .multi-choice object,
+.contentDiv .multi-choice embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #39 car-race ********************************/
+
+.contentDiv .car-race object,
+.contentDiv .car-race embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #40 cloze ********************************/
+
+.contentDiv .cloze object,
+.contentDiv .cloze embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #41 concentration ********************************/
+
+.contentDiv .concentration object,
+.contentDiv .concentration embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #42 drag-and-drop ********************************/
+
+.contentDiv .drag-and-drop object,
+.contentDiv .drag-and-drop embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #43 dropster ********************************/
+
+.contentDiv .dropster object,
+.contentDiv .dropster embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #44 flash-card ********************************/
+
+.contentDiv .flash-card object,
+.contentDiv .flash-card embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #45 multi-quiz ********************************/
+
+.contentDiv .multi-quiz object,
+.contentDiv .multi-quiz embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #53 blackboard ********************************/
+
+.contentDiv .blackboard object,
+.contentDiv .blackboard embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #70 presentation ********************************/
+
+.contentDiv .presentation object,
+.contentDiv .presentation embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #77 media-quiz ********************************/
+
+.contentDiv .media-quiz object,
+.contentDiv .media-quiz embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #78 response ********************************/
+
+.contentDiv .response object,
+.contentDiv .response embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #81 chat ********************************/
+
+.contentDiv .chat object,
+.contentDiv .chat embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #96 audio-track ********************************/
+
+.contentDiv .audio-track object,
+.contentDiv .audio-track embed
+{
+	height:50px;
+	width:75px;
+}
+/********************************* #89 audio-transcript ********************************/
+
+.contentDiv .audio-transcript 
+{
+    z-index: 100;    
+}
+
+/********************************* #90 directions-icon ****************************/
+.contentDiv .directions-icon
+{
+    z-index: 100; 
+}
+
+/********************************* #102 study-sheet ********************************/
+.contentDiv .study-sheet
+{
+    z-index: 100; 
+}
+
+/************************* #85 key-terms ************************************/
+.contentDiv .key-terms
+{
+    z-index: 100; 
+}
+
+/************************* #84 fyi ******************************************/
+.contentDiv .fyi
+{
+    z-index: 100; 
+}
+
+/************************* #83 complete-and-submit ***************************/
+.contentDiv .complete-and-submit
+{
+    z-index: 100;    
+}
+
+/************************* #86 answers ***************************************/
+.contentDiv .answers
+{
+    z-index: 100;    
+}
+
+/************************* #87 dry-lab ***************************************/
+.contentDiv .dry-lab
+{
+    z-index: 100;    
+}
+
+/********************************* #88 math-workbook ********************************/
+.contentDiv .math-workbook
+{
+    z-index: 100;    
+}
+
+/********************************* #91 journal ********************************/
+.contentDiv .journal
+{
+    z-index: 100;    
+}
+
+/********************************* #92 discuss ********************************/
+.contentDiv .discuss
+{
+    z-index: 100;    
+}
+
+/********************************* #97 audio-assignment ********************************/
+.contentDiv .audio-assignment
+{
+    z-index: 100;    
+}
+
+/********************************* #125 real-life ********************************/
+.contentDiv .real-life
+{
+    z-index: 100;    
+}
+
+/********************************* #129 earth-matters ********************************/
+.contentDiv .earth-matters
+{
+    z-index: 100;    
+}
+
+/********************************* #144 in-focus ********************************/
+.contentDiv .in-focus
+{
+    z-index: 100;    
+}
+
+/********************************* #153 periodic-table ********************************/
+.contentDiv .periodic-table
+{
+    z-index: 100;    
+}
+
+/********************************* #154 formulas-and-constants ********************************/
+.contentDiv .formulas-and-constants
+{
+    z-index: 100;    
+}
+
+/********************************* #150 keyboard ********************************/
+.contentDiv .keyboard
+{
+    z-index: 100;    
+}
+
+/********************************* #181 checkup ********************************/
+.contentDiv .checkup
+{
+    z-index: 100;    
+}
+
+/********************************* #182 exam ********************************/
+.contentDiv .exam
+{
+    z-index: 100;    
+}
+
+/********************************* #183 exploration ********************************/
+.contentDiv .exploration
+{
+    z-index: 100;    
+}
+
+/********************************* #184 log ********************************/
+.contentDiv .log
+{
+    z-index: 100;    
+}
+
+/********************************* #185 practice-assignment ********************************/
+.contentDiv .practice-assignment
+{
+    z-index: 100;    
+}
+
+/********************************* #186 practice-guide ********************************/
+.contentDiv .practice-guide
+{
+    z-index: 100;    
+}
+
+/********************************* #187 project ********************************/
+.contentDiv .project
+{
+    z-index: 100;    
+}
+
+/********************************* #188 reading-guide ********************************/
+.contentDiv .reading-guide
+{
+    z-index: 100;    
+}
+
+/********************************* #189 reading-materials ********************************/
+.contentDiv .reading-materials
+{
+    z-index: 100;    
+}
+
+/********************************* #190 reading-summaries ********************************/
+.contentDiv .reading-summaries
+{
+    z-index: 100;    
+}
+
+/********************************* #191 review ********************************/
+.contentDiv .review
+{
+    z-index: 100;    
+}
+
+/********************************* #192 test ********************************/
+.contentDiv .test
+{
+    z-index: 100;    
+}
+
+/********************************* #193 wet-lab ********************************/
+.contentDiv .wet-lab
+{
+    z-index: 100;    
+}
+
+/********************************* #112 dropster-auto ********************************/
+
+.contentDiv .dropster-auto object,
+.contentDiv .dropster-auto embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #115 flash-player ********************************/
+
+.contentDiv .flash-player object,
+.contentDiv .flash-player embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #119 worksheet ********************************/
+
+.contentDiv .worksheet object,
+.contentDiv .worksheet embed
+{
+	height:500px;
+	width:594px;
+}
+
+/********************************* #141 writing-generator ********************************/
+
+.contentDiv .writing-generator object,
+.contentDiv .writing-generator embed
+{
+	height:600px;
+	width:600px;
+}
+
+/********************************* #142 apox ********************************/
+
+.contentDiv .apox object,
+.contentDiv .apox embed
+{
+	height:400px;
+	width:475px;
+}
+
+/********************************* #143 graphic-organizer ********************************/
+
+.contentDiv .graphic-organizer object,
+.contentDiv .graphic-organizer embed
+{
+    height:600px;
+	width:600px;
+}
+
+/********************************* #148 audio-track-music ********************************/
+
+.contentDiv .audio-track-music object,
+.contentDiv .audio-track-music embed
+{
+	height:60px;
+	width:215px;
+}
+
+/********************************* #153 periodic-table ********************************/
+
+.contentDiv .periodic-table 
+{
+    z-index:100;    
+}
+
+/********************************* #155 essay-generator ********************************/
+
+.contentDiv .essay-generator object,
+.contentDiv .essay-generator embed
+{
+	height:600px;
+	width:600px;
+}
+
+/********************************* #156 multi-slide ********************************/
+
+.contentDiv .multi-slide object,
+.contentDiv .multi-slide embed
+{
+	height:353px;
+	width:400px;
+}
+
+/********************************* #163 reading-assistant ********************************/
+
+.contentDiv .reading-assistant object,
+.contentDiv .reading-assistant embed
+{
+	height:600px;
+	width:600px;
+}
+
+/********************************* #198 passage ********************************/
+
+.contentDiv .passage object,
+.contentDiv .passage embed
+{
+	height:500px;
+	width:515px;
+}
+
+/********************************* #199 wordassist ********************************/
+
+.contentDiv .wordassist object,
+.contentDiv .wordassist embed
+{
+    height:10px;
+    width:10px;
+}
+
+.contentDiv .wordassist .tooltip .title
+{
+    font-size:x-large;
+    font-family:Times;
+    color:#333333;
+}
+
+/********************************* #203 passage-plus ********************************/
+
+.contentDiv .passage-plus object,
+.contentDiv .passage-plus embed
+{
+	height:500px;
+	width:515px;
+}
+
+/********************************* #204 mini-response ********************************/
+
+.contentDiv .mini-response object,
+.contentDiv .mini-response embed
+{
+	height:200px;
+	width:550px;
+}
+
+/********************************* #205 dynamic-flash-cards ********************************/
+
+.contentDiv .dynamic-flash-cards object,
+.contentDiv .dynamic-flash-cards embed
+{
+	height:300px;
+	width:500px;
+}
+
+/********************************* #206 lesson-overview ********************************/
+
+.contentDiv .lesson-overview object,
+.contentDiv .lesson-overview embed
+{
+	height:350px;
+	width:500px;
+}
+
+/********************************* #207 video-cloud ********************************/
+
+.contentDiv .video-cloud object,
+.contentDiv .video-cloud embed
+{
+	height:350px;
+	width:370px;
+}
+
+/********************************* #208 asset-directory ********************************/
+
+.contentDiv .asset-directory object,
+.contentDiv .asset-directory embed
+{
+	height:350px;
+	width:515px;
+}
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/*  MACAW
+/***************************************************************************************/
+/***************************************************************************************/
+
+
+.macaw h2 
+{
+    color: #000;
+	font-size: 16px;
+}
+
+.macaw ul 
+{
+	padding:0 0 0 25px;
+	list-style-type: disc;
+}
+
+.macaw ul li 
+{
+    padding: 0;
+    background: transparent;
+}
+
+.macaw #maincolumn 
+{
+	padding: 10px 15px 0 15px;
+}
+
+.macaw #container 
+{
+	padding: 0;
+}
+
+.macaw .icon,
+#contentDiv.macaw .icon
+{
+	border-color: #EDB934;
+}
+
+.macaw .icon:hover
+{
+    z-index:51;
+}
+
+.macaw .pageTitle, .macaw p.pageTitle 
+{
+	color: #005BAE;
+	margin: 0 0 20px 0;
+}
+
+.macaw p.directions,
+#contentDiv.macaw p.directions 
+{
+    background-image:url(../../images/icons/SolidState/Directions-small.png);
+    padding: 5px 0 5px 55px;
+}
+    
+.macaw .icon-image 
+{
+    position:relative;
+    display:block;
+    background-repeat:no-repeat;
+    width: 65px;
+    height: 65px;
+    z-index:24; 
+    text-decoration:none;
+    cursor: pointer;
+    margin:0px 0px 0px 8px;
+}
+
+.macaw .gutter-icon .icon-image:hover
+{
+    cursor:pointer;
+}
+
+.macaw .gutter-icon
+{
+    margin:10px 0px 10px 0px;
+}
+
+.macaw .gutter-icon .caption
+{
+    visibility:hidden;
+    text-align:center;
+    cursor: pointer;
+}
+    
+.macaw .gutter-icon .caption-link
+{ 
+    display:inline;
+    color: #005BAE;
+}
+
+.macaw .gutter-icon:hover .caption
+{
+    color:#005BAE;
+    visibility:visible;
+}
+
+
+/******************** links ***********************************************/
+.macaw.contentDiv a:link 
+{
+	color: #E78720;
+}
+
+.macaw.contentDiv a:hover 
+{
+	color: #005BAE;
+}
+
+.macaw.contentDiv a:active 
+{
+	color: #C93;
+}
+
+/******************** #99 Bulleted Links ***********************************************/
+
+.macaw.contentDiv .bulleted-link a:link 
+{
+    padding-left: 15px;
+    background: url('../../images/bullet-orange.png') no-repeat 0px 0.5em;
+    background-position: left center;
+    position:relative;
+    left:-15px;
+}
+
+.macaw.contentDiv .bulleted-link a:hover 
+{
+	background: url('../../images/bullet-blue.png') no-repeat 0px 0.5em;
+    background-position: left center;
+}
+
+.macaw.contentDiv ul.bulleted-link
+{
+    list-style-type:none;
+}
+
+/************************* #212 Objective Box ************************************/
+.macaw.contentDiv .objectivebox 
+{
+	padding: 0 0 10px;
+	margin: 15px 0;
+	background: #FFFFFF;
+	font-size: 12px;
+	clear: both;
+	border-bottom: 2px solid #005BAE;
+}
+.macaw.contentDiv .objectivebox p 
+{
+	margin: 10px 10px 0;
+}
+.macaw.contentDiv .objectivebox h3 
+{
+	background: #005BAE;
+	color: #FFF;
+	padding: 3px 10px;
+	margin: 0 0 10px;
+	font-size: 14px;
+	text-align:center;
+}
+	
+.macaw.contentDiv .objectivebox ul 
+{
+	padding-left: 0px;
+	margin-top:17px;
+}
+
+.macaw.contentDiv .objectivebox li 
+{
+	font-size: 12px;
+	list-style-type:none;
+	display:block;
+	position:relative;
+	margin-bottom:8px;
+}
+
+.macaw.contentDiv .objectivebox li .bullet-box 
+{
+    height:27px;
+    width:27px;
+    background:url(../../images/GreyBox.png);
+    display:inline-block;
+    position:absolute;
+    top:0px;
+}
+.macaw.contentDiv .objectivebox li .objective-container
+{
+    display:inline-block;
+    position:relative;
+    left:27px;
+    top:0px;
+    width:100%;
+    border-left: 8px solid;
+}
+
+.macaw.contentDiv .objectivebox li div.objective 
+{
+    display:block;
+    border-right: 2px solid;
+    clear:right;
+    margin-right: 35px;
+    border-bottom: 2px solid;
+    padding: 2px 5px 0px 5px;
+}
+.macaw.contentDiv .objectivebox li .objective-bottom-border 
+{
+    display:block;
+    height:5px;
+    border-right: 2px solid;
+    margin-right:35px;
+}
+
+.macaw.contentDiv .objectivebox li.objective-color0 .objective-container,
+.macaw.contentDiv .objectivebox li.objective-color0 .objective,
+.macaw.contentDiv .objectivebox li.objective-color0 .objective-bottom-border
+{
+    border-color:#EDCB00;
+}
+
+.macaw.contentDiv .objectivebox li.objective-color1 .objective-container,
+.macaw.contentDiv .objectivebox li.objective-color1 .objective,
+.macaw.contentDiv .objectivebox li.objective-color1 .objective-bottom-border
+{
+    border-color:#E7A623;
+}
+
+.macaw.contentDiv .objectivebox li.objective-color2 .objective-container,
+.macaw.contentDiv .objectivebox li.objective-color2 .objective,
+.macaw.contentDiv .objectivebox li.objective-color2 .objective-bottom-border
+{
+    border-color:#BFCE2F;
+}
+
+.macaw.contentDiv .objectivebox li.objective-color3 .objective-container,
+.macaw.contentDiv .objectivebox li.objective-color3 .objective,
+.macaw.contentDiv .objectivebox li.objective-color3 .objective-bottom-border
+{
+    border-color:#9EDCEC;
+}
+
+.macaw.contentDiv .objectivebox .footer
+{
+    height:13px;
+}
+
+.macaw.contentDiv .objectivebox .audio-container
+{
+    float:right;
+    position:relative;
+    left:-45%;
+    text-align:left;
+}
+
+/************************* #22 Default content box ************************************/
+/*  Added a padding to the calloutbox to prevent collapsing margins. 
+    The header has a margin of -1px to offset this padding since it's 
+    a white header on a blue box.
+ */
+    
+.macaw.contentDiv .calloutbox 
+{
+	padding: 1px 0 10px;
+	border-left: 5px solid #005BAE;
+	border-right: 5px solid #005BAE;
+	border-top: 0px;
+	border-bottom: 0px;
+	margin: 15px 0;
+	background: #E0FBFF;
+	font-size: 12px;
+	clear: both;
+}
+.macaw.contentDiv .calloutbox p 
+{
+	margin: 10px 10px 0;
+}
+.macaw.contentDiv .calloutbox h3 
+{
+	background: #FFFFFF;
+	color: #005BAE;
+	padding: 3px 10px;
+	margin: -1px 0 10px;
+	font-size: 14px;
+	border-bottom: 2px solid #005BAE;
+}
+.macaw.contentDiv .calloutbox li 
+{
+	font-size: 12px;
+	margin-right: 5px;
+}
+.macaw.contentDiv .white 
+{
+	background: #FFF;
+}
+	
+.macaw.contentDiv .calloutbox ul 
+{
+	margin:0 0 0 10px;
+}
+
+	
+/************************* #100 On The Web Box *************************************/
+.macaw.contentDiv .ontheweb 
+{
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-left: 5px solid #CED1D9;
+	border-top: 0px;
+	border-bottom: 0px;
+	margin: 30px 0 10px;
+}
+.macaw.contentDiv .ontheweb p 
+{
+	font-size: 12px;
+	line-height: 14px;
+	color: #9197A2;
+}
+.macaw.contentDiv .ontheweb h3 
+{
+	font-size: 12px;
+	color: #9197A2;
+	margin: 2px 0 18px;
+	border-bottom: 2px solid #CED1D9;
+	padding: 5px 0 5px 12px;
+	position: relative;
+	left: -5px;
+}
+.macaw.contentDiv .ontheweb h2 
+{
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	margin-left: 18px;
+}
+.macaw.contentDiv .ontheweb li 
+{
+	font-size: 12px;
+	line-height: 16px;
+    padding: 0;
+    background: transparent;
+}
+
+.macaw.contentDiv .ontheweb ul 
+{
+    list-style-type:none;
+    padding-left:25px;
+}
+
+/************************* #85 key-terms ************************************/
+.macaw .key-terms .icon-image
+{
+    background-image:url(../../images/icons/SolidState/KeyTerms.png);
+}
+
+.macaw .key-terms .gutter-icon:hover .icon-image {
+    background-image:url(../../images/icons/HoverState/KeyTerms-H.png);
+}
+
+/************************* #84 fyi ******************************************/
+.macaw .fyi .icon-image
+{
+    background-image:url(../../images/icons/SolidState/FYI.png);
+}
+.macaw .fyi .gutter-icon:hover .icon-image
+{
+    background-image:url(../../images/icons/HoverState/FYI-H.png);
+}
+
+/************************* #83 complete-and-submit ***************************/
+.macaw .complete-and-submit .icon-image
+{
+    background-image:url(../../images/icons/SolidState/CompleteSubmit.png);
+}
+.macaw .complete-and-submit .gutter-icon:hover .icon-image
+{
+    background-image:url(../../images/icons/HoverState/CompleteSubmit-H.png);
+}
+	
+/************************* #86 answers ***************************************/
+.macaw .answers .icon-image
+{
+    background-image:url(../../images/icons/SolidState/Answers.png);
+}
+.macaw .answers .gutter-icon:hover .icon-image {
+    background-image:url(../../images/icons/HoverState/Answers-H.png);
+}
+
+/************************* #87 dry-lab ***************************************/
+.macaw .dry-lab .icon-image
+{
+    background-image:url(../../images/icons/SolidState/DryLab.png);
+}
+.macaw .dry-lab .gutter-icon:hover .icon-image
+{
+    background-image:url(../../images/icons/HoverState/DryLab-H.png);
+}
+
+/********************************* #88 math-workbook ********************************/
+
+.macaw .math-workbook .icon-image
+{
+	background-image:url(../../images/icons/SolidState/MathWorkbook.png);
+}
+.macaw .math-workbook .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/MathWorkbook-H.png);
+}
+
+/********************************* #89 audio-transcript ********************************/
+
+.macaw .audio-transcript .icon-image
+{
+	background-image:url(../../images/icons/SolidState/AudioTranscript.png);
+}
+.macaw .audio-transcript .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/AudioTranscript-H.png);
+}
+
+/********************************* #91 journal ********************************/
+
+.macaw .journal .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Journal.png);
+}
+.macaw .journal .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Journal-H.png);
+}
+
+/********************************* #92 discuss ********************************/
+
+.macaw .discuss .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Discussion.png);
+}
+.macaw .discuss .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Discussion-H.png);
+}
+
+/********************************* #97 audio-assignment ********************************/
+
+.macaw .audio-assignment .icon-image
+{
+	background-image:url(../../images/icons/SolidState/SpokenAssignment.png);
+}
+.macaw .audio-assignment .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/SpokenAssignment-H.png);
+}
+
+/********************************* #98 calculator ********************************/
+/* BUGBUG - need new image files */
+
+.macaw .calculator .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Calculator.png);
+}
+.macaw .calculator .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Calculator-H.png);
+}
+
+/********************************* #102 study-sheet ********************************/
+
+.macaw .study-sheet .icon-image
+{
+	background-image:url(../../images/icons/SolidState/StudySheet.png);
+}
+.macaw .study-sheet .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/StudySheet-H.png);
+}
+
+/********************************* #125 real-life ********************************/
+
+.macaw .real-life .icon-image
+{
+	background-image:url(../../images/icons/SolidState/RealLife.png);
+}
+.macaw .real-life .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/RealLife-H.png);
+}
+
+/********************************* #129 earth-matters ********************************/
+
+.macaw .earth-matters .icon-image
+{
+	background-image:url(../../images/icons/SolidState/EarthMatters.png);
+}
+.macaw .earth-matters .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/EarthMatters-H.png);
+}
+
+/********************************* #144 in-focus ********************************/
+
+.macaw .in-focus .icon-image
+{
+	background-image:url(../../images/icons/SolidState/InFocus.png);
+}
+.macaw .in-focus .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/InFocus-H.png);
+}
+
+/********************************* #150 keyboard ********************************/
+
+.macaw .keyboard .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Keyboard.png);
+}
+.macaw .keyboard .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Keyboard-H.png);
+}
+
+/********************************* #153 periodic-table ********************************/
+
+.macaw .periodic-table .icon-image
+{
+	background-image:url(../../images/icons/SolidState/PeriodicTable.png);
+}
+.macaw .periodic-table .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/PeriodicTable-H.png);
+}
+
+/********************************* #181 checkup ********************************/
+
+.macaw .checkup .icon-image
+{
+	background-image:url(../../images/icons/SolidState/CheckUp.png);
+}
+.macaw .checkup .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/CheckUp-H.png);
+}
+
+/********************************* #182 exam ********************************/
+
+.macaw .exam .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Exam.png);
+}
+.macaw .exam .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Exam-H.png);
+}
+
+/********************************* #183 exploration ********************************/
+
+.macaw .exploration .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Exploration.png);
+}
+.macaw .exploration .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Exploration-H.png);
+}
+
+/********************************* #185 practice-assignment ********************************/
+
+.macaw .practice-assignment .icon-image
+{
+	background-image:url(../../images/icons/SolidState/PracticeAssignment.png);
+}
+.macaw .practice-assignment .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/PracticeAssignment-H.png);
+}
+
+/********************************* #184 log ********************************/
+
+.macaw .log .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Log.png);
+}
+.macaw .log .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Log-H.png);
+}
+
+/********************************* #186 practice-guide ********************************/
+
+.macaw .practice-guide .icon-image
+{
+	background-image:url(../../images/icons/SolidState/PracticeGuide.png);
+}
+.macaw .practice-guide .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/PracticeGuide-H.png);
+}
+
+/********************************* #187 project ********************************/
+
+.macaw .project .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Project.png);
+}
+.macaw .project .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Project-H.png);
+}
+
+/********************************* #188 reading-guide ********************************/
+
+.macaw .reading-guide .icon-image
+{
+	background-image:url(../../images/icons/SolidState/ReadingGuide.png);
+}
+.macaw .reading-guide .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/ReadingGuide-H.png);
+}
+
+/********************************* #189 reading-materials ********************************/
+
+.macaw .reading-materials .icon-image
+{
+	background-image:url(../../images/icons/SolidState/ReadingMaterials.png);
+}
+.macaw .reading-materials .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/ReadingMaterials-H.png);
+}
+
+/********************************* #190 reading-summaries ********************************/
+
+.macaw .reading-summaries .icon-image
+{
+	background-image:url(../../images/icons/SolidState/ReadingSummaries.png);
+}
+.macaw .reading-summaries .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/ReadingSummaries-H.png);
+}
+
+/********************************* #191 review ********************************/
+
+.macaw .review .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Review.png);
+}
+.macaw .review .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Review-H.png);
+}
+
+/********************************* #192 test ********************************/
+
+.macaw .test .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Test.png);
+}
+.macaw .test .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Test-H.png);
+}
+
+/********************************* #193 wet-lab ********************************/
+
+.macaw .wet-lab .icon-image
+{
+	background-image:url(../../images/icons/SolidState/WetLab.png);
+}
+.macaw .wet-lab .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/WetLab-H.png);
+}
+
+/********************************* #90 directions-icon ****************************/
+
+.macaw .directions-icon .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Directions.png);
+}
+.macaw .directions-icon .gutter-icon:hover .icon-image
+{
+	background-image:url(../../images/icons/HoverState/Directions-H.png);
+}
+
+/********************************* #154 formulas-and-constants ********************************/
+
+.macaw .formulas-and-constants .icon-image
+{
+	background-image:url(../../images/icons/SolidState/Formulas.png);
+	
+}
+.macaw .formulas-and-constants .icon-image:hover
+{
+	background-image:url(../../images/icons/HoverState/Formulas-H.png);
+}
+
+
+
+
+/********************************************************************************************************/
+/********************************************************************************************************/
+/*											Classic                                                     */
+/********************************************************************************************************/
+/********************************************************************************************************/
+
+
+	
+	
+.classic .icon-image 
+{
+    position:relative;
+    display:block;
+    background-repeat:no-repeat;
+    width: 36px;
+    height: 36px;
+    z-index:24; 
+    text-decoration:none;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom:10px;
+}
+
+.classic .gutter-icon .icon-image:hover
+{
+        cursor: pointer;
+}
+
+.classic .gutter-icon
+{
+    text-align:center;
+}
+
+.classic .gutter-icon .caption
+{ 
+    visibility:visible;
+    display:block;
+    left:0px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.classic .gutter-icon .caption-link:hover
+{
+    color: #EDB934;    
+    cursor: pointer;
+}
+    
+.classic .gutter-icon .caption-link
+{ 
+    display:inline;
+    color: #005BAE;
+    text-decoration:underline;
+}
+
+
+/************************* #212 Objective Box ******************************/
+
+.classic.contentDiv .objectivebox 
+{
+	padding: 0 0 10px;
+	border: 1px solid #6280B8;
+	margin: 15px 0;
+	background: #DFE8F3;
+	font-size: 12px;
+	clear: both;
+}
+.classic.contentDiv .objectivebox p 
+{
+	margin: 10px 10px 0;
+}
+.classic.contentDiv .objectivebox h3 
+{
+	background: #6280B8;
+	color: #FFF;
+	padding: 3px 10px;
+	margin: 0 0 10px;
+	font-size: 14px;
+}
+.classic.contentDiv .objectivebox li 
+{
+	font-size: 12px;
+	margin-right: 5px;
+}    
+
+/************************* #85 key-terms ************************************/
+.classic .key-terms .icon-image
+{
+    background-image:url(../../images/icons/icon_keyterm.gif);
+}
+
+/************************* #84 fyi ******************************************/
+.classic .fyi .icon-image
+{
+    background-image:url(../../images/icons/icon_fyi.gif);
+}
+
+/************************* #83 complete-and-submit ***************************/
+.classic .complete-and-submit .icon-image
+{
+    background-image:url(../../images/icons/icon_external.gif);
+}
+	
+/************************* #86 answers ***************************************/
+.classic .answers .icon-image
+{
+    background-image:url(../../images/icons/icon_answers.gif);
+}
+
+/************************* #87 dry-lab ***************************************/
+.classic .dry-lab .icon-image
+{
+    background-image:url(../../images/icons/icon_lab.gif);
+}
+
+/********************************* #88 math-workbook ********************************/
+
+.classic .math-workbook .icon-image
+{
+	background-image:url(../../images/icons/icon_mathWorkbook.gif);
+}
+
+/********************************* #89 audio-transcript ********************************/
+
+.classic .audio-transcript .icon-image
+{
+	background-image:url(../../images/icons/icon_transcript.gif);
+}
+
+/********************************* #91 journal ********************************/
+
+.classic .journal .icon-image
+{
+	background-image:url(../../images/icons/icon_journal.gif);
+}
+
+/********************************* #92 discuss ********************************/
+
+.classic .discuss .icon-image
+{
+	background-image:url(../../images/icons/icon_interview.gif);
+}
+
+/********************************* #97 audio-assignment ********************************/
+
+.classic .audio-assignment .icon-image
+{
+	background-image:url(../../images/icons/icon_doc_microphone.gif);
+}
+
+/********************************* #98 calculator ********************************/
+
+.classic .calculator .icon-image
+{
+	background-image:url(../../images/icons/icon_calculator.gif);
+}
+
+/********************************* #102 study-sheet ********************************/
+
+.classic .study-sheet .icon-image
+{
+	background-image:url(../../images/icons/icon_studysheet.gif);
+	width: 54px;
+    height: 54px;
+}
+
+/********************************* #125 real-life ********************************/
+
+.classic .real-life .icon-image
+{
+	background-image:url(../../images/icons/icon_life.gif);
+}
+
+/********************************* #129 earth-matters ********************************/
+
+.classic .earth-matters .icon-image
+{
+	background-image:url(../../images/icons/icon_earthMatters.gif);
+}
+
+/********************************* #144 in-focus ********************************/
+
+.classic .in-focus .icon-image
+{
+	background-image:url(../../images/icons/icon_focus.gif);
+}
+
+/********************************* #150 keyboard ********************************/
+
+.classic .keyboard .icon-image
+{
+	background-image:url(../../images/icons/icon_keyboard.gif);
+}
+
+/********************************* #153 periodic-table ********************************/
+
+.classic .periodic-table .icon-image
+{
+	background-image:url(../../images/icons/icon_fyi.gif);
+}
+
+/********************************* #181 checkup ********************************/
+
+.classic .checkup .icon-image
+{
+	background-image:url(../../images/icons/icon_exam.gif);
+}
+
+/********************************* #182 exam ********************************/
+
+.classic .exam .icon-image
+{
+	background-image:url(../../images/icons/icon_exam.gif);
+}
+
+/********************************* #183 exploration ********************************/
+
+.classic .exploration .icon-image
+{
+	background-image:url(../../images/icons/icon_exploration.gif);
+}
+
+/********************************* #185 practice-assignment ********************************/
+
+.classic .practice-assignment .icon-image
+{
+	background-image:url(../../images/icons/icon_practice.gif);
+}
+
+/********************************* #184 log ********************************/
+
+.classic .log .icon-image
+{
+	background-image:url(../../images/icons/icon_log.gif);
+}
+
+/********************************* #186 practice-guide ********************************/
+
+.classic .practice-guide .icon-image
+{
+	background-image:url(../../images/icons/icon_guide.gif);
+}
+
+/********************************* #187 project ********************************/
+
+.classic .project .icon-image
+{
+	background-image:url(../../images/icons/icon_project.gif);
+}
+
+/********************************* #188 reading-guide ********************************/
+
+.classic .reading-guide .icon-image
+{
+	background-image:url(../../images/icons/icon_guide.gif);
+}
+
+/********************************* #189 reading-materials ********************************/
+
+.classic .reading-materials .icon-image
+{
+	background-image:url(../../images/icons/icon_reading.gif);
+}
+
+/********************************* #190 reading-summaries ********************************/
+
+.classic .reading-summaries .icon-image
+{
+	background-image:url(../../images/icons/icon_reading.gif);
+}
+
+/********************************* #191 review ********************************/
+
+.classic .review .icon-image
+{
+	background-image:url(../../images/icons/icon_review.gif);
+}
+
+/********************************* #192 test ********************************/
+
+.classic .test .icon-image
+{
+	background-image:url(../../images/icons/icon_exam.gif);
+}
+
+/********************************* #193 wet-lab ********************************/
+
+.classic .wet-lab .icon-image
+{
+	background-image:url(../../images/icons/icon_wetlab.gif);
+}
+
+/********************************* #90 directions-icon ****************************/
+
+.classic .directions-icon .icon-image
+{
+	background-image:url(../../images/icons/icon_directions.gif);
+}
+
+
+/********************************* #154 formulas-and-constants ********************************/
+
+.classic .formulas-and-constants .icon-image
+{
+	background-image:url(../../images/icons/icon_formulas.gif);
+	width: 86px;
+    height: 37px;
+
+}
+

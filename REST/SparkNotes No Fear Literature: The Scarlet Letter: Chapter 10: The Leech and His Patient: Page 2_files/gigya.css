@@ -1,0 +1,208 @@
+.g_body
+{
+	padding: 5px; overflow: hidden;
+}
+
+.g_large_header
+{
+	font-size: 20px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.g_medium_header
+{
+	font-size: 20px;
+	margin: 0 0 0 4px;
+	font-weight: bold;
+}
+
+.g_instructions_text
+{
+	font-size: 12px;
+}
+
+.g_instructions_text p
+{
+	margin: 0 0 10px 0;
+}
+
+.g_instructions_text p b
+{
+	text-transform: uppercase;
+}
+
+.g_arrow
+{
+	position:relative;
+	top: 26px;
+	left: 2px;
+}
+
+.g_import_text
+{
+	padding: 5px 0px 10px 0px;
+	color: #039ce7;
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+
+.g_list
+{
+	list-style: none;
+	line-height: 24px;
+	font-size: 16px;
+}	
+
+.g_entry_text
+{
+	font-size: 12px;
+	padding: 5px 10px 0px 20px;
+	width: 50px;
+	text-align: right;
+	float: left;
+}
+
+.g_entry_text_blog
+{
+        font-size: 12px;
+        padding: 5px 10px 0px 0px;
+        width: 50px;
+        text-align: right;
+        float: left;
+}
+
+
+.g_fb_entry_text
+{
+	font-size: 12px;
+	padding: 5px 10px 0px 0px;
+	width: 50px;
+	text-align: right;
+	float: left;
+	color: white;
+
+}
+
+.g_fields
+{
+  	margin: 5px 0px;
+  	float: left;
+ 
+ 
+}
+
+.g_or_text
+{
+	float: left;
+	font-weight:bold;
+	font-size: 16px;
+	margin: 0px 78px 0px 78px;
+}
+
+.g_or_signup_text
+{
+	font-weight:bold;
+	font-size: 16px;
+	margin: 0px 0px 0px 150px;
+
+}
+
+.g_widget1
+{
+	float: left;
+}
+
+.g_widget_login
+{
+	float: left;
+	margin: 0px 0px 0px 80px;
+}
+
+.g_widget2
+{
+	float: left;
+	margin: 0px 0px 0px 105px;
+}
+
+
+.g_right_header
+{
+	float:right;
+}
+
+.g_blog_login_box
+{
+	background-color: #FEF4F8;
+	width: 540px;
+	padding: 0px 0px 10px 20px;
+	height: 285px;
+}
+
+.g_blog_login_container
+{
+	padding: 15px 0px 0px 15px;
+	height: 190px;
+}
+
+.g_option_link
+{
+	float: left;
+	width: 270px;
+	font-size: 20px;
+	margin: 0px 0px 15px 20px;
+        padding:10px;
+        border:solid;
+}
+
+.g_option
+{	
+	width: 150px;
+	font-size: 16px;
+	padding: 0 0px 15px 0px;
+	font-weight: bold;
+}
+
+.g_footer_links
+{
+	float: right;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.g_photos
+{
+	float: left;
+	padding-right: 10px;
+}
+
+.g_info
+{
+	height: 120px;
+}
+
+.g_login_btn
+{
+	padding-left: 155px;
+}
+
+.g_radio_btns
+{
+	float: left;
+	font-size: 20px;
+	padding-bottom: 17px;
+	margin-left: 40px;
+}
+
+.g_link_btn
+{
+        border: 0;	
+	padding: 16px 0px 10px 0px;
+}
+
+.g_icons
+{
+	float: right;
+	margin-right: 7px;
+}

@@ -1,0 +1,243 @@
+/* Big Screens */
+@media only screen and (min-width:1212px) {
+
+/* Layout */
+.centered-width { width: 1150px; }
+.inner-content { width: 1118px; }
+[class*='col-'] { float: left; margin: 0 30px 30px 0; }
+.col-2-3 { width: 735px; }
+.col-1-3 { width: 353px; }
+.col-1-4 { width: 257px !important; }
+.col-mid { width: 543px; }
+.TOC { width: 541px; }
+.col-2-3.border-blue { width: 733px; }
+.col-1 { width: 1116px; margin: 0; }
+#ad-skin-img,
+.sparklife-container #ad-skin-img { background-size: 1628px; }
+.col-mid-left { width: 624px; }
+.col-mid-right { width: 460px; }
+.inner-content { padding: 0 15px; }
+.col-1-2 { width: 558px; }
+.col-half { width: 512px; }
+
+/* Homepage */
+.fixed-media { width: 447px; }
+.media-text { width: 256px; margin: 0 0 0 30px; } 
+.small-media .fixed-media  { width: 100px; }
+.small-media .media-text  { width: 127px; margin: 0 15px; }
+.img-small { width: 100px; height: 57px; }
+h3 { margin: 20px 0; }
+#carousel_prev,
+#carousel_next { top: 50px; }
+#carousel img { min-width: 255px; }
+.home-feature img { min-width: 734px; }
+.readers-posts img { min-width: 255px; }
+.slideshow-img { width: 351px; }
+.rotator .dark-grey-background { min-height: 194px; }
+.caroufredsel_wrapper { width: 1118px !important; }
+
+/* Dropdowns */
+.dropdown h5 { margin: 20px 0; }
+.dropdown h4 { margin: -2px 0 0; display: block; font-size: 14px; line-height: 20px; }
+.dropdown .media { margin: 0 0 15px; }
+ul#menu > li > .dropdown { font-size: 16px; line-height: 20px; font-weight: bold; }
+.dropdown ul li { margin: 0 20px 10px 0; font-weight: normal; }
+ul.alpha li a { padding: 1px 0 6px 8px; width: 16px; height: 15px; }
+.dropdown-sparklife  { width: 860px; left: -555px; }
+.dropdown-sparklife.no-feature { width: 551px; left: -397px; }
+.dropdown-sparknotes { width: 990px; left: -113px; }
+.dropdown-no-fear { width: 551px; left: -49px; }
+.dropdown-mindhut { width: 551px; left: -531px; }
+.dropdown-test-prep { width: 560px; left: -171px; }
+ul#menu > li > .dropdown-video { left: -354px; }
+.dropdown-video h5 { margin: 0; }
+.dropdown-sparklife .col-1-4 { min-height: 450px; }
+.dropdown-test-prep .col-1-4 { min-height: 420px; }
+.dropdown .col-1-4 { width: 260px; }
+.dropdown-test-prep .col-1-8 { min-height: 420px; width: 165px; }
+.dropdown-sparknotes .col-1-8, .dropdown-sparknotes .col-1-4 { min-height: 570px; }
+.dropdown ul li ul.alpha { width: 175px; }
+
+/* Masthead */
+.masthead .col-1-3 { margin: 0 20px 0 0; }
+.masthead .last { margin: 0; width: 400px; } /* changed 8/6/14 from 378px as it was wrapping links in header */
+.newMail h2 { padding: 7px 3px 3px 6px; } 
+.user-links > li { list-style: none; border-right: 1px solid #424242; padding: 0 13px; margin: 10px 0; float: left; }
+.user-links > li.top-login { list-style: none; }
+.user-links > li.sign-up { clear: none; }
+.user-links > li.help { padding: 0 0 0 13px; } d
+.masthead ul { padding: 0; }
+.user-links > li.email-sign-up { margin: 3px 0 0 0; }
+#login-dialog { top: 39px; left: 123px; }
+.user-links > li.sign-up { clear: none; border-left: 1px solid #424242; }    
+      
+/* Songza */
+.playlist { width: 265px; }
+
+/* Study Guides - Interior */
+.next-title { width: 413px;}
+#quiz label { width: 480px; }
+.alpha-list a, .alpha-list span { margin: 0 8px 0 0; }
+span.alpha-title { margin: 0 5px; }
+.more-help ul li { width: 140px; }
+.social-links > div { font-size: 16px; }
+.containerUGC .header h2 a { width: 300px; }
+.more-help-interior { width: 422px; }
+.study-guide-TOC .fb-study-guides { width: 480px; }
+.sidebar-media .fixed-media { width: 168px; }
+.sidebar-media .media-text,
+.category-page .sidebar-media .media-text { width: 140px; margin: 0 0 0 10px; }
+#note_display img#loading { margin: 150px 0 150px 350px; }
+.content_txt p.quote-paragraph, .content_txt blockquote.quote-paragraph { width: 460px; }
+.more-help-interior .caroufredsel_wrapper { width: 422px !important; }
+.more-help #carousel_next { right: -70px; }
+
+/* Search */
+.narrow-results h2 { margin: 13px 0 13px 15px; }
+
+/* Video */
+.col-2-3.border-blue.video-sparknotes-container { padding: 15px; width: 703px; }
+.video-container { margin: 0; }
+.relatedVideoThumb { padding: 0 15px 15px; }
+.thumbnails { margin: 20px 0 0 -15px; }
+.videos { margin: 20px 0 50px 4px; }
+.video-container { margin: 0 0 70px 0; }
+.videoThumbCrop img,
+.videoThumbCrop,
+.videoInfo { width: 241px; }
+.video-page h6 { top: 111px; }
+.top-video h6 { top: 257px; }
+.videoThumbCrop { height: 135px; }
+.top-video-container { height: 286px; }
+
+/* Comments */
+.viewComments img#loading { margin: 150px 0 150px 350px; }
+#load_more_comments { margin: 50px 0 0 250px; }
+
+/* Pagination */
+.paginate li a,
+.content .paginate li a,
+.paginate li span { font-size: 21px; }
+
+/* Footer */
+.footer { padding: 30px 0 30px 0; }
+
+/* No Fear */
+.nfs-title,
+.nfl-title { width: 510px; height: 253px; }
+#noFear-comparison, 
+.noFear p { font-size: 14px; line-height: 24px; }
+.NFS .title { width: 280px; }
+.nfsFeature { width: 510px; }
+
+/* Media with Excerpt */
+.large-media .fixed-media { width: 594px; }
+.large-media .media-text { width: 492px; }
+.media-text .copy { font-size: 14px; line-height: 24px; }
+.large-post .fixed-media { width: 806px; }
+.large-post .media-text { width: 280px; padding: 15px; margin: 0; }
+.slideshow-post .fixed-media { width: 1118px; }
+.slideshow-post .media-text { width: 1086px; }
+
+/* Typography */
+h4.headline { font-size: 30px; line-height: 35px; margin: 3px 0 10px 0; }
+.UGCExcerpt h4.headline { margin: 0 0 10px 0; }
+h1.headline { font-size: 35px; line-height: 37px; margin: 5px 15px 14px; }
+.category-page .media-text h4.headline { font-size: 18px; line-height: 24px; margin: 5px 0; }
+
+/* SparkLife Nav */
+#newest { width: 65px; }
+#most-read { width: 86px; }
+#open-threads { background: #1fbe4f; width: 113px; }
+#crushes { width: 68px; }
+#all-celeb { width: 60px; }
+#beauty { width: 118px; }
+#photos { width: 133px; }
+#art-slideshows,
+#slideshows { width: 138px; }
+#sparkler-posts { width: 123px; }
+#advice { width: 56px; }
+.sparklife-header ul li { font-size: 14px;  padding: 12px 13px; margin: auto 7px auto 0; }
+a.top-link { padding: 10px; margin: 41px 0 0 10px; }
+
+/* SparkLife */
+.containerSparkLife .centered-width { width: 1119px; }
+.top-stories li { width: 213px; margin: 0 0 0 10px; } 
+.top-stories li:first-child { margin: 0 2px 0 0; }
+.top-stories li:last-child { margin: 0 0 0 11px; }
+.sparklife-logo-home { margin: 10px 20px 20px 0; }
+.sparklife-logo-home a { background-size: 688px; width: 440px; height: 65px; background-position: 0 -76px; }
+.article-image { width: 701px; }
+.containerSparkLife .col-2-3 { width: 735px; }
+.containerSparkLife .col-2-3 .centered-width { width: 736px; }
+.category-page .sparkler-post-excerpt,
+.category-page .media-text,
+.category-page .small-post .media-text,
+.category-page .large-media .media-text { width: 314px; }
+.category-page .fixed-media { width: 389px; }
+.category-page .sidebar-media .fixed-media { width: 168px; }
+.category-page .slideshow-post .fixed-media { width: 1118px; }
+.from-our-partners { padding: 15px 15px 0 15px; }
+.hungerGamesExcerpt h4.hunger-games-logo, 
+.top-stories h5 { font-size: 16px; line-height: 20px; }
+#postItems li { margin: 0 0 5px 40px; }
+#postItems { margin: 25px 0 10px 35px; }
+.large-media .sparkler-post-feature { width: 295px; }
+
+.large-media .sparkler-post-excerpt,
+.small-post .media-text { width: 791px; }
+
+.category-page .sparkler-post-excerpt { width: 408px; }
+.social-container { margin: 47px 0 0 10px; }
+.sparklife-container .inner-content { padding: 20px 15px 0; }
+
+/* SparkLife Commenting*/
+.hasImage { width: 565px; }
+.replies .hasImage { width: 515px; }
+.noImage { width: 700px; }
+.replies .noImage { width: 650px; }
+
+/* SparkLife Commenting*/
+.related-posts li { width: 168px; }
+#comment_container #loading { padding: 100px 350px; }
+
+/* Slideshow */
+#slide { width: 703px; }
+.slideshowNav { width: 600px; }
+.slideshow-carousel { width: 733px; }
+.slideshow-carousel .slideshowNav ul li { height: 61px; width: 108px; }
+.jcarousel-clip { width: 600px; }
+.slideshowNav img { max-width: 108px; }
+a.slideNext { left: 660px; }
+
+/* MindHut */
+.small-search { width: 290px; }
+.small-search fieldset input[type="text"] { width: 225px; }
+.mindhut-header .search-sparknotes { margin: 59px 0 20px; float: right; }
+.mindhut-logo-home { margin: 10px 15px 20px 0; }
+
+/* About the Author */
+.author-module img { width: 168px; }
+.content .author { width: 432px; }
+
+/* Sparkler Posts */
+.sparkler-posts-tag { width: 420px; }
+.sparkler-posts-logo-large a { width: 460px; height: 107px; background-size: 558px; }
+.sparkler-posts-header ul li.sparkler-posts-logo-large { margin: 20px 19px 15px 0; }
+.sparkler-posts-header ul li { margin: 45px 7px auto 0; }
+.sparkler-posts-header ul li.last-sp-nav { margin: 45px 0 auto 0; }
+.sparkler-post-homepage .large-media h5 { width: 70%; }
+
+/* Sweepstakes */
+#sweepstakes_form { width: 620px; }
+.sweepstakes input[type=text] { width: 360px; }
+.sweepstakes .formField { width: 360px; }
+.sweepstakes .formTitle { width: 170px; }
+.sweepstakes .small { width: 320px; }
+.email-update { width: 383px; }
+
+/* Advertise Page */
+.advertise-title span.logo { margin: -12px 15px 30px 0; }
+.ad-specs .media-text { width: 245px; }
+
+}

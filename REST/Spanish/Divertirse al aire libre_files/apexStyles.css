@@ -1,0 +1,793 @@
+body {
+	margin: 0;
+	width: 645px;
+	background: #fff;
+	color: #000;
+	font: 14px/18px Arial, Geneva, Verdana, Helvetica, sans-serif;
+	text-align: left;
+	behavior:url("http://acecontent.apexlearning.com/Live/includes/behavior/csshover.htc");
+	}
+
+#container {
+	BACKGROUND: #fff;
+	position: relative;
+	margin: 0;
+	padding: 0 0 15px 0;
+	text-align: left;
+	width: 650px;
+}
+
+#mediacontainer {
+	margin: 20px auto 0;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #CCC;
+	background: #FFF;
+	width: 320px;
+}
+
+#mediacontainer IMG {
+	DISPLAY: block
+}
+
+#maincolumn {
+	padding: 10px 0 0 15px; 
+	width: 515px;
+}
+
+/* inline audio controls */
+.audio {
+	position: absolute;
+	width: 100px;
+	height: 16px;
+	top: 2px;
+	right: 10px;
+	text-align: right;
+	}
+
+.audio img {
+	margin: 1px 0 0 5px;
+	}
+
+/* links */
+a:link {
+	color: #3968C2;
+	text-decoration: underline;
+	}
+
+a:visited {
+	color: #744054;
+	}
+
+a:hover {
+	color: #E59B29;
+	}
+
+a:active {
+	color: #C93;
+	}
+
+TH {
+	FONT: 14px/18px Arial, Geneva, Verdana, Helvetica, sans-serif
+}
+TD {
+	FONT: 14px/18px Arial, Geneva, Verdana, Helvetica, sans-serif
+}
+UL {
+	FONT: 14px/18px Arial, Geneva, Verdana, Helvetica, sans-serif
+}
+OL {
+	FONT: 14px/18px Arial, Geneva, Verdana, Helvetica, sans-serif
+}
+LI {
+	FONT: 14px/18px Arial, Geneva, Verdana, Helvetica, sans-serif
+}
+CODE {
+	color: #000;
+	font-family: monaco, "Courier New", courier, monospace;
+	font-size: 10px;
+}
+PRE {
+	color: #000;
+	font-family: monaco, "Courier New", courier, monospace;
+	font-size: 10px;
+}
+HTML CODE {
+	FONT-SIZE: 101%
+}
+HTML PRE {
+	FONT-SIZE: 101%
+}
+
+h1, h2, h3, h4 {
+	clear: both;
+	}
+
+h1	{
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	}
+	
+h2	{
+	margin: 20px 0 8px 0;
+	padding: 0 0 2px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #3B5177;
+	/*border-bottom: 1px solid #CCC;*/
+	}
+	
+h3	{
+	position: relative;
+	margin: 10px 0 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #000;
+	}
+
+h4	{
+	margin: 0 0 3px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	}
+
+p	{
+	margin: 0 0 10px 0;
+	padding: 0;
+	color: #000;
+	}
+	
+P.pageTitle {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	}
+P.pageTitle2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 19px;
+	font-weight: bold;
+	color: #666666;
+	}
+BLOCKQUOTE {
+	padding: 10px 40px 20px;
+	margin: 0;
+	font-size: 16px;
+	color: #193D7F;
+	}
+FORM {
+	margin: 0;
+	}
+BUTTON {
+	margin: 3px 0 10px 0;
+	}
+UL {
+	padding-left: 10px;
+	margin-top: 0;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	}
+LI {
+	margin-top: 3px;
+	}
+UL LI {
+	PADDING-LEFT: 10px; 
+	BACKGROUND: url('http://assets.apexlearning.com/shared/Images/bullet.gif') no-repeat 0px 0.5em; 
+}
+OL UL LI {
+	PADDING-LEFT: 10px; 
+	BACKGROUND: url('http://assets.apexlearning.com/shared/Images/bullet.gif') no-repeat 0px 0.5em; 
+}
+UL UL LI {
+	PADDING-LEFT: 10px; 
+	BACKGROUND: url('http://assets.apexlearning.com/shared/Images/bullet.gif') no-repeat 0px 0.5em; 
+}
+UL UL {
+	MARGIN-LEFT: 20px
+}
+OL {
+	PADDING-LEFT: 1.5em; 
+	MARGIN: 0px 0px 10px 1.5em
+}
+OL LI {
+	background: none;
+}
+DL {
+	border: 1px solid #6280B8;
+	margin: 20px 0;
+	background: #DFE8F3;
+	padding: 10px 10px 0;
+	}
+DT {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	}
+DD {
+	margin: 0 0 10px 20px;
+	padding: 0;
+	}
+TABLE {
+	border-top: 1px solid #6280B8;
+	border-left: 1px solid #6280B8;
+	margin: 0 0 20px;
+	}
+TD {
+	border-bottom: 1px solid #6280B8;
+	border-right: 1px solid #6280B8;
+	padding: 6px 8px;
+	text-align: left;
+	vertical-align: top;
+	}
+TH {
+	border-bottom: 1px solid #6280B8;
+	border-right: 1px solid #6280B8;
+	background: #DFE8F3;
+	padding: 4px 8px;
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+	}
+CAPTION {
+	padding: 20px 0 4px;
+	color: #6280B8;
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+	}
+TABLE.graphic {
+	border: none;
+	}
+TABLE.graphic TD {
+	border: none;
+	padding: 4px 8px 4px 0;
+	}
+TABLE.half {
+	width: 238px;
+	margin: 20px;
+	}
+TABLE.half CAPTION {
+	width: 222px;
+	}
+
+.image {
+	border: 1px solid #CCC;
+	padding: 10px 10px 0;
+	border: 1px solid #CCC;
+	}
+.image IMG {
+	margin-bottom: 10px;
+	}
+.image P {
+	font-size: 11px;
+	line-height: 13px;
+	text-align: left;
+	}
+
+.noborderimage {
+	padding: 0 10px;
+	}
+.noborderimage IMG {
+	margin-bottom: 10px;
+	}
+.noborderimage P {
+	font-size: 11px;
+	line-height: 13px;
+	text-align: left;
+	}
+
+
+
+
+P.source {
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 9px;
+	color: #666;
+	margin: -5px 0 5px;
+	}
+	
+.calloutbox {
+	padding: 0 0 10px;
+	border: 1px solid #6280B8;
+	margin: 20px 0;
+	background: #DFE8F3;
+	font-size: 12px;
+	}
+.calloutbox p {
+	margin: 10px 10px 0;
+	}
+.calloutbox h3 {
+	background: #6280B8;
+	color: #FFF;
+	padding: 3px 10px;
+	margin: 0 0 10px;
+	font-size: 14px;
+	clear: both;
+	}
+.calloutbox li {
+	font-size: 12px;
+	margin-right: 5px;
+	}
+.white {
+	background: #FFF;
+	}
+.box {
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin: 20px 0;
+	clear: both;
+	}
+.box li {
+	font-size: 12px;
+	margin-right: 5px;
+	}
+.noborderbox {
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	margin: 20px 0;
+	clear: both;
+	}
+.noborderbox li {
+	font-size: 12px;
+	margin-right: 5px;
+	}
+.textbox {
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #CCC;
+	padding: 0;
+	margin: 20px 0;
+	clear: both;
+	}
+.textbox li {
+	font-size: 12px;
+	margin-right: 5px;
+	}
+.textbox P {
+	MARGIN: 10px
+	}
+
+
+.mini {
+	HEIGHT: auto;
+	}
+.quarter {
+	MARGIN: 4px;
+	WIDTH: 25%;
+	HEIGHT: auto;
+	}
+.half {
+	MARGIN: 4px;
+	WIDTH: 50%;
+	HEIGHT: auto;
+	}
+.threequarter {
+	MARGIN: 4px;
+	WIDTH: 75%;
+	HEIGHT: auto;
+	}
+.full {
+	HEIGHT: auto;
+	width: 100%;
+	}
+
+
+.Left {
+	FLOAT: left; 
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.Right {
+	FLOAT: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.chalkboard {
+	color: #000;
+	font-weight: bold;
+	font-size: 17px;
+	}
+.keyterm-undefined {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 75%;
+	color: #000;
+	}
+.wordassist-undefined {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 75%;
+	color: #000;
+	}
+.footnote {
+	padding-bottom: 20px;
+	border-top: 1px solid #CCC;
+	margin: 30px 0 0;
+	}
+.footnote p {
+	font-size: 12px;
+	line-height: 14px;
+	color: #666;
+	}
+.footnote h3 {
+	font-size: 12px;
+	color: #666;
+	}
+.question {
+	font-weight: bold;
+	}
+
+.icon {
+	position: absolute;
+	right: 10px;
+	width: 80px;
+	margin: 10px 0;
+	padding-left: 10px;
+	border-left: 1px solid #CCC;
+	height: auto;
+	text-align: center;
+	font-size: 10px;
+	line-height: 12px;
+	z-index: 50;
+	}
+.rm {
+	font-family:Garamond,times new roman,times,new york,serif;
+	color: #000000;
+    font-size: 16px;
+    }
+.rmnotes {
+	font-family:Garamond,times new roman,times,new york,serif;
+	color: #009933;    
+	font-size: 16px;
+	}
+/* icons */
+.icon img {
+	margin-bottom: 10px;
+	}
+	
+.icon p {
+	margin-bottom: 20px;
+	}
+	
+p.howto {
+	text-align: center;
+	margin: 10px 0;
+	}
+
+/* tooltips */
+span.keyterm {
+	font-weight: bold;
+	color: #3968C2;
+	cursor: default;
+	}
+
+span.keyterm:hover {
+	color: #E59B29;
+	}
+
+span.keyterm span.tooltip {
+	display: none;
+	}
+
+span.keyterm:hover span.tooltip {
+	border: 3px solid #ffcc66;
+	color: #000;
+	background-color: #FFFBC2;
+	text-align: left;
+	text-transform: none;
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+	position: absolute;
+	max-width: 480px;
+	margin-top: 15px;
+	z-index: 100;
+	left: 20px;
+	padding: 10px;
+	}
+	
+span.wordassist {
+	color: #339900;
+	cursor: default;
+	}
+
+span.wordassist:hover {
+	color: #E59B29;
+	}
+
+span.wordassist span.tooltip {
+	display: none;
+	}
+
+span.wordassist:hover span.tooltip {
+	border: 3px solid #66cc66;
+	color: #000;
+	background-color: #CCFFCC;
+	text-align: left;
+	text-transform: none;
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+	position: absolute;
+	max-width: 480px;
+	margin-top: 15px;
+	z-index: 100;
+	left: 20px;
+	padding: 10px;
+	}
+	
+span.vocab {
+	color: #3968C2;
+	cursor: default;
+	}
+
+span.vocab:hover {
+	color: #E59B29;
+	}
+
+span.vocab span.tooltip {
+	display: none;
+	}
+
+span.vocab:hover span.tooltip {
+	border: 1px solid #E59B29;
+	color: #000;
+	background-color: #FFFBC2;
+	text-align: left;
+	text-transform: none;
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+	position: absolute;
+	max-width: 480px;
+	margin-top: 15px;
+	z-index: 100;
+	left: 20px;
+	padding: 10px;
+	}
+
+p.directions {
+	font-style: italic;
+	padding: 5px 0 5px 55px;
+	margin: 10px 0;
+	background: url('http://assets.apexlearning.com/shared/images/icons/icon_compass.jpg') no-repeat 0 10px;
+	background-position: center left;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	clear: both;
+	}
+
+.ontheweb {
+	padding-bottom: 20px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	margin: 30px 0 10px;
+	}
+
+.ontheweb p {
+	font-size: 12px;
+	line-height: 14px;
+	color: #666;
+	}
+
+.ontheweb h3 {
+	font-size: 12px;
+	color: #666;
+	margin: 2px 0 18px;
+	}
+
+.ontheweb h2 {
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	margin-left: 18px;
+	}
+.ontheweb LI {
+	PADDING-LEFT: 10px; 
+	BACKGROUND: url('http://assets.apexlearning.com/shared/images/bullet.gif') no-repeat 0px 0.5em; 
+	font-size: 12px;
+	line-height: 16px;
+	}
+p.internal {
+	display: none;
+	}
+sub, sup {
+	font-size: 75%; 
+	padding: 0 0 0 2px;
+}
+TABLE.vocab {
+	margin: 0;
+	padding: 2px;
+	border: none;
+	width: 100%;
+	text-align: left;
+}
+td.vc1 {
+	margin: 0;
+	padding: 2px;
+	border: none;
+	padding-right: 3px;
+	text-align: right;
+	width: 10%;
+}
+td.vc2 
+{
+	margin: 0;
+	padding: 2px;
+	border: none;
+	width: 40%;
+}
+td.vc3 
+{
+	margin: 0;
+	border: none;
+	width: 515px;
+}
+
+INPUT, TEXTAREA {
+	font-size: 11px;
+	font-family: sans-serif;
+	text-align: left;
+}
+/* Syllabus stuff */
+.unit {
+	margin: 10px 0 0 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	}
+.lesson {
+	margin: 10px 0 5px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+	}
+.activity {
+	margin: 10px 0 0 30px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3B5177;
+	}
+.description {
+	margin: 0 0 0 40px;
+	font-size: 10px;
+	color: #000;
+	}
+.duration {
+	margin: 0 0 0 100px;
+	font-size: 11px;
+	font-style: italic;
+	color: #000;
+	}
+
+table.poll {
+	border: none;
+	margin: 0px 12px 0px 4px;
+	}
+table.poll TD {
+	border: none;
+	font-size: 11px;
+	padding: 1px;
+	}
+table.poll TD.submit {
+	border: none;
+	font-size: 10px;
+	padding: 4px 0 0 0;
+	text-decoration: none;
+	text-align: center;
+	}
+table.poll TD.results {
+	border: none;
+	font-size: 10px;
+	padding: 4px 0 0 0;
+	text-decoration: none;
+	text-align: right;
+	}
+  /* Variable Content */
+div.honors {
+	display: none;
+        }
+div.core {
+	display: none;
+        }
+div.ct {
+	display: none;
+       }
+div.ctv {
+	display: none;
+       }
+	   
+span.core
+{
+	display: none;
+}
+
+/* Dashboard stuff */
+.dashboard 
+{
+	margin: 0 0 10px;
+}
+
+.dashboardText
+{
+	font-size: 12px;
+        padding-left: 5px;
+	padding-right: 5px;
+	overflow: hidden;
+}
+
+.dashboardText ul
+{
+	font-size: 12px;
+}
+
+.dashboardText li
+{
+	font-size: 12px;
+}
+
+.dashboardText td
+{
+	font-size: 12px;
+}
+
+
+#DashboardDiv TABLE
+{
+	border: none;
+	margin: 0;
+}
+
+#DashboardDiv TD
+{
+	border: none;
+	padding: 0;
+}
+
+ .h1 
+ {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+ 
+.h2
+{
+    margin: 20px 0 8px 0;
+    padding: 0 0 2px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3B5177;
+}
+
+.h3
+{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+

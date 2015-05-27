@@ -1,0 +1,32 @@
+word = input('Type 6 letter word:     ')
+word2 = input('Type 6 letter word:     ')
+fileName = 'words.txt'
+file1 = open(fileName, 'r')
+import linecache
+
+def neigh(str):
+  arr = []
+  for n in range(5000):
+    string = linecache.getline(fileName,n+1)
+    dif = 0
+    for x in range(6):
+      if word[x:x+1] != string[x:x+1]: dif += 1
+    if dif == 1:
+      arr.append(string[:6])
+  return arr
+         
+while True:
+  array = neigh(word)
+  for n in range 
+  print( array)
+  
+file1.close()
+ 
+def neigh(str):
+  for n in range(5000):
+    string = linecache.getline(fileName,n+1)
+    dif = 0
+    for x in range(6):
+      if word[x:x+1] != string[x:x+1]: dif += 1
+    if dif == 1:
+      print (string)

@@ -1,0 +1,1 @@
+document.write('<script type="text/javascript"><!--\r\ngoogle_ad_client = "ca-pub-4736686707081797";\r\n/* Sparknotes ROS 300x250 */\r\ngoogle_ad_slot = "5399736327";\r\ngoogle_ad_width = 300;\r\ngoogle_ad_height = 250;\r\n//-->\r\n<\/script>\r\n<script type="text/javascript"\r\nsrc="http://pagead2.googlesyndication.com/pagead/show_ads.js">\r\n<\/script>');

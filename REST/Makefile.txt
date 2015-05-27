@@ -1,0 +1,5 @@
+a.out: mend.c
+	mpicc -lGL -lGLU -lglut mend.c
+
+clean:
+	rm a.out
